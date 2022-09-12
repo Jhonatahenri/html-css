@@ -1,0 +1,91 @@
+body {
+    justify-content: center;
+    background-color: rgba(104, 104, 184, 0.986);
+    align-items: center;
+}
+
+#header {
+    background-color: rgba(198, 198, 243, 0.986);
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    box-shadow: 8px 5px 5px rgba(29, 28, 28, 0.651);
+}
+
+h1 {
+    text-align: center;
+    font-size: 35px;
+    padding-top: 10px;
+}
+
+.curriculo {
+    width: 70%;
+}
+
+.curriculo, .walking {
+    display: inline-block;
+}
+
+.walking {
+    box-shadow:5px 3px 3px rgba(0, 0, 0, 0.432);
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    float: right;
+    margin: 10px;
+}
+
+.formacao, .profissional, .qualificacao {
+    display: inline-block;
+    overflow: auto;
+}
+
+h1, h2, h3, p {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+p, h3, li {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 23px;
+    color: rgb(24, 23, 23);
+    margin-right: 20px;
+}
+
+.middle {
+    color: rgba(104, 104, 184, 0.986);
+    width: 75%;
+}
+
+.endbegging {
+    color: rgba(104, 104, 184);
+    height: 1px;
+    width: 90%;
+}
+
+#obs {
+    font-size: 10px;
+}
+li {
+    padding-top: 5px;
+}
+
+hr {
+    align-items: center;
+}
+
+footer{
+    background: #180d0379;
+    width: 100%;
+    border-top: 2px solid rgba(255, 255, 255, 0.548);
+    height: 100px;
+    }
+
+    #copy {
+        text-align: center;
+        padding: 20px;
+        color: rgba(255, 255, 255, 0.623);
+    }

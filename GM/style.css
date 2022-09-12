@@ -1,0 +1,191 @@
+body {
+    background-image: url(./imagens/fundo.png);
+    background-attachment: fixed;
+    background-size: 3000px 3000px;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    margin: 0%;
+    overflow: auto;
+}
+
+/* menu de navegação */
+
+.hero {
+    top: 0;
+    height: 120px;
+    position: relative;
+    position: sticky;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.774);
+    box-shadow: 10px 5px 3px rgba(255, 68, 0, 0.37);
+}
+
+
+.menu {
+    position: absolute;
+    text-align: center;
+}
+
+.link {
+    text-align: center;
+    margin: 10px;
+    width: auto;   
+    padding: 10px;
+    display: inline-block
+}
+
+a {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(252, 252, 252);
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.link:hover {
+    border-radius: 5px;
+    background-color: #FE3B76;
+    box-shadow: 5px 5px 5px orangered;
+    filter: blur 2px;
+}
+
+.logo {
+    width: 10%;
+    display: inline-block;
+}
+
+/* resto do site */
+
+.cabeça {
+    background-image: url(./imagens/galpao1.jpeg);
+    height: 500px;
+    background-position: center;
+    margin-top: 0px;
+    border: 2px solid orangered;
+    border-bottom: 2px solid orangered;
+}
+
+h2 {
+    background-color: #ccc;
+    margin-right: 85%;
+}
+
+#container {
+    width: 100%;
+}
+
+.caixa {
+    width: 50%;
+    margin: auto;
+    margin-top: 100px;
+}
+
+h1 {
+    width: 30%;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    background-color: #FE3B76;
+    border-radius: 5px;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    box-shadow: 10px 10px  orangered;
+    text-align: center;
+    
+}
+
+#quem #oque{
+    display: relative;
+}
+
+.figuras {
+    display: inline-block;
+    width: 30%;
+}
+
+.treino {
+    display: inline-block;
+    width: 100%;
+}
+
+.texto {
+    margin-left: 2%;
+    width: 65%;
+    display: inline-block;
+}
+
+.todomundo {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.texto p {
+    text-indent: 50px;
+    line-height: 30px;
+    margin: 30px;
+}
+
+.todomundo p {
+    text-indent: 50px;
+    line-height: 30px;
+}
+
+h1, p {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+}
+
+#valores, #horarios, #fale{
+    text-align: center;
+}
+
+.contrato {
+    display: inline-block;
+    width: 30%;
+    margin: 1%;
+    height: 300px;
+    margin-top: 0;
+    background-image: url(./imagens/valores.png);
+    background-size: cover;
+    border-radius: 10px;
+    box-shadow: 5px 5px 3px rgba(255, 255, 255, 0.39);
+}
+
+h3 {
+    text-shadow: 2px 2px #FE3B76;
+    text-indent: 0px;
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-transform: uppercase;
+}
+
+.parcela {
+    text-shadow: 1px 1px black;
+    text-indent: 0px;
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-transform: uppercase;
+}
+
+.contra {
+    text-shadow: 1px 1px orangered;
+}
+
+.contrario {
+    background-image: url(./imagens/valores\ cabeça\ pra\ baixo.png);
+}
+
+#mapa {
+    margin-bottom: 50px;
+}
+
+footer {
+    text-align: center;
+    border-top: 2px solid orangered;
+    background-color: #fe3b7575;
+    bottom: 0px;
+}
+
+.rede {
+    width: 10%;
+}

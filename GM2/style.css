@@ -23,8 +23,8 @@ a {
     text-transform: uppercase;
     font-weight: bold;
     text-align: center;
-    width: 20%;
-    margin: 50px 40%;
+    width: 30%;
+    margin: 50px 35%;
     padding: 10px;
     color: #eee;
     background-color: #FE3B76;
@@ -34,11 +34,15 @@ a {
     box-shadow: 10px 10px  rgb(255, 68, 0);
 }
 
+section {
+    padding-top: 30px;
+}
+
 /*Barra de navegação*/
 #navbar {
     width: 100%;
     background: rgba(0, 0, 0, 0.616);
-    height: 80px;
+    height: 60px;
     border-bottom: 2px solid orangered;
     box-shadow: 0 5px 5px rgba(255, 68, 0, 0.637);
     position: fixed;
@@ -55,7 +59,7 @@ a {
 }
 
 .logo-nav {
-    width: 10%;
+    height: 70px;
     padding: 10px;
 }
 
@@ -63,10 +67,11 @@ a {
     display: flex;
     list-style: none;
     text-transform: uppercase;
+    font-size: .8rem;
 }
 
 #navbar-items li {
-    padding: 10px 50px;
+    padding: 10px 20px;
 }
 
 #navbar-items li:hover {
@@ -96,12 +101,7 @@ a {
     border-radius: 5px;
 }
 
-/*quem somos*/
-#quemsomos {
-    height: 100vh;
-    align-items: center;
-}
-
+/*Quem somos*/
 .logogm {
     width: 30%;
 }
@@ -109,7 +109,7 @@ a {
 #quemsomos-container {
     align-items: center;
     display: flex;
-    margin: 10% 20%
+    margin: 10% 10%
 }
 
 .paragrafo {
@@ -123,11 +123,6 @@ a {
 }
 
 /*o que é calistenia*/
-#calistenia {
-    height: 100vh;
-    align-items: center;
-}
-
 .argola {
     width: 30%;
 }
@@ -135,7 +130,7 @@ a {
 #calistenia-container {
     align-items: center;
     display: flex;
-    margin: 10% 20%
+    margin: 10% 10%;
 }
 
 #calistenia-container p {
@@ -145,14 +140,9 @@ a {
 }
 
 /*pra mim*/
-#pramim {
-    height: 100vh;
-    align-items: center;
-}
-
 .treino {
-    width: 60%;
-    margin: 0 20%;
+    width: 80%;
+    margin: 0 10%;
 }
 
 #pramim-container {
@@ -160,8 +150,8 @@ a {
 }
 
 #pramim-container P {
-    width: 60%;
-    margin: 0 20%;
+    width: 80%;
+    margin: 0 10%;
     font-size: 1.2rem;
     text-indent: 50px;
     line-height: 30px;
@@ -169,10 +159,9 @@ a {
 
 /*valores*/
 #valores {
-    height: 100vh;
     align-items: center;
-    width: 60%;
-    margin: 0 20%;
+    width: 80%;
+    margin: 0 10%;
 }
 
 #valores p {
@@ -188,7 +177,7 @@ a {
     font-size: 1.1rem;
     font-family: 'roboto' sans-serif;
     text-align: center;
-    height: 400px;
+    height: 350px;
     width: 33%;
     margin: 20px;
     background-image: linear-gradient(orangered, #FE3B76 80%);
@@ -215,10 +204,9 @@ h1 {
 /*Horários*/
 
 #horarios {
-    height: 100vh;
     align-items: center;
-    width: 60%;
-    margin: 0 20%;
+    width: 80%;
+    margin: 0 10%;
 }
 
 #horarios p {
@@ -234,7 +222,7 @@ h1 {
     font-size: 1.1rem;
     font-family: 'roboto' sans-serif;
     text-align: center;
-    height: 400px;
+    height: 350px;
     width: 33%;
     margin: 20px;
     background-image: linear-gradient(#FE3B76 40%, orangered);
@@ -250,14 +238,10 @@ h1 {
 }
 
 /*fale conosco*/
-#fale {
-    height: 100vh;
-    align-items: center;
-}
 
 #fale-container {
-    width: 60%;
-    margin: 0 20%;
+    width: 80%;
+    margin: 0 10%;
 }
 
 .figuras {
@@ -265,9 +249,16 @@ h1 {
     width: 15%;
 }
 
+.mapa {
+    margin-bottom: 50px;
+}
+
 /*footer*/
 
 footer {
+    display: inline-block;
+    width: 100%;
+    height: 100px;
     text-align: center;
     border-top: 2px solid orangered;
     background-color: #fe3b7575;
@@ -279,7 +270,9 @@ footer p {
 }
 
 .rede {
-    width: 10%;
+    height: 70px;
 }
+
+
 
 

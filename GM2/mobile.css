@@ -1,0 +1,137 @@
+/*headlines*/
+.headline {
+    width: 70%;
+    margin: 0 15% 40px 15%;
+    font-size: 1.2rem;
+}
+
+
+/*Barra de navegação*/
+#navbar-items {
+    display: none;
+}
+
+#navbar-container {
+    width: 100%;
+}
+
+.logo-nav {
+    margin-left: 100%;
+}
+
+/*Header*/
+#showcase{
+    background-size: 540px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#showcase-container {
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+/*Quem somos*/
+#quemsomos-container {
+    flex-direction: column;
+    width: 90%;  
+    margin: 0 5%;
+}
+
+#quemsomos-container p {
+    font-size: .9rem;
+}
+
+/*o que é calistenia*/
+#calistenia-container {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 0 5%;
+}
+
+#calistenia-container p {
+    font-size: .9rem;
+}
+
+/*pra mim*/
+.treino {
+    width: 80%;
+    margin: 30px 10% 10px 10%;
+}
+
+#pramim-container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#pramim-container P {
+    width: 80%;
+    margin: 0 10%;
+    font-size: .9rem;
+}
+
+/*valores*/
+#valores {
+    width: 90%;
+    margin: 0 5%;
+}
+#valores p {
+    text-align: center;
+    font-size: .9rem;
+}
+
+#valores-container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.valores {
+    font-size: .9rem;
+    height: 250px;
+    width: 80%;
+}
+
+/*Horários*/
+#horarios {
+    width: 90%;
+    margin: 0 5%;
+}
+
+#horarios-container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.horarios {
+    font-size: .9rem;
+    height: 250px;
+    width: 80%;
+}
+
+/*fale conosco*/
+#fale-container {
+    width: 90%;
+    margin: 0 5%;
+}
+
+.fale {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.figuras {
+    margin: 0 35%;
+    width: 30%;
+}
+
+.mapa {
+    width: 90%;
+    margin: 0 5% 50px 5%;
+
+}

@@ -1,3 +1,8 @@
+body {
+    background-image: linear-gradient(black 85%, #FE3B76);
+    background-attachment: fixed;
+}
+
 /*headlines*/
 .headline {
     width: 70%;
